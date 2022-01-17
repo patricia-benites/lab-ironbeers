@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Register the location for handlebars partials here:
 
-// ...
+app.set("view engine", "hbs");
 
 // Add the route handlers here:
 
